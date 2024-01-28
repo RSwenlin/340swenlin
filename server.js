@@ -16,7 +16,7 @@ const static = require("./routes/static")
  *************************/
 app.use(static)
 // index route
-app.get("/" function(req, res){
+app.get("/", function(req, res){
   res.render("index", {title: "Home"})
 })
 
