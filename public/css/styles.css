@@ -4,3 +4,8 @@
 *:after {
   box-sizing: border-box;
 }
+body {
+  background-image: url('images/site/checkerboard.jpg');
+  background-size: cover;
+}
+div { color:aqua;}
